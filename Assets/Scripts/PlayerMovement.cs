@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isWalking)
         {
-            if (!m_AudioSource.isPlaying)
+            if (!m_AudioSource.isPlaying);
             {
                 m_AudioSource.Play();
             }
